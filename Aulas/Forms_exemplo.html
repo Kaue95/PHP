@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Exemplo de formulario</h1>
+	<form name="cadastro" method="post" action="pagina_form.php">
+		Nome: <input type="text" name="nome" size="40" maxlength="20"> <br/> <br/>
+		Senha: <input type="password" name="senha"> <br/> <br/>
+		<input type="checkbox" name="termouso" value="termo"/>
+		Aceito o termo de uso <br/> <br/>
+		<input type="radio" name="sexo" value="fem"/> Feminino
+		<input type="radio" name="sexo" value="mas"/> Masculino
+		<br/>
+		<input type="hidden" name="login" value="admin">
+		<br/>
+		&nbsp; &nbsp; &nbsp;
+		<input type="button" name="Voltar">
+		&nbsp; &nbsp; &nbsp;
+		<a href="#" onclick="document.cadastro.reset()">LIMPAR</a>
+		&nbsp; &nbsp; &nbsp;
+		<input type="submit" name="ENVIAR">
+	</form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<h1>Formulário</h1>
+	<h3>Oque você achou do site?</h3>
+	<form class="grid">
+		
+		<p id="feed">
+			<input type="radio" name="feedback" class="feedback" value="1"/> Muito Bom
+			<input type="radio" name="feedback" class="feedback"value="2"/> Bom
+			<input type="radio" name="feedback" class="feedback" value="3"/> Regular
+			<input type="radio" name="feedback" class="feedback"value="4"/> Um lixo
+		</p>
+		<h3>Qual a seção que você mais gostou?</h3>
+		<select name="selecao" class="op">
+				<option value="ec" >Em Cartaz</option>
+				<option value="ts">Trilha Sonora</option>
+				<option value="gdf">Galeria de Fotos</option>
+				<option value="blt">Bilheteria</option>
+				<option value="Other">Outra</option>
+		</select>
+			<p id="sec">Outra: <input type="text" name="secao" id="other"></p>
+		<h3>Digite seus comentários no espaço abaixo:</h3>
+		<textarea name="msg" cols="50" rows="8"
+		id="textogrande"></textarea>
+		<h3>Diga-nos como entrar em contato com você:</h3>
+			<p id="contato">Nome <input type="text" name="contato"id="cont1">
+			<br/>E-mail <input type="text" name="contato" id="cont2">
+			<br/>Fone <input type="text" name="contato"id="cont3">
+			<br/>Fax<input type="text" name="contato"id="cont4"></p>
+		<p id="check"><input type="checkbox" name="check" value="check"/> Quero receber as novidades do site por e-mail.</p> 
+		
+		
+		<p id="button">
+			<input type="submit" name="Enviar" id="botao1">
+			<input type="reset" name="Limpar Formulário" id="botao2">
+		</p>
+	</form>
+</body>
+</html>

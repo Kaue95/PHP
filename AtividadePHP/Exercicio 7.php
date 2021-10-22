@@ -18,10 +18,8 @@ echo "&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&e
 	$distancia = $tempogasto * $velocidademédia;
 	$litrosusados = $distancia/12;
 
-	echo "A quantidade de litros usados nesta viagem é de: ". $litrosusados. " litros.<hr/>";
+	printf("A quantidade de litros usados nesta viagem é de: %.2f litros.<hr/>", $litrosusados);
 
 	echo "A distancia percorrida nesta viagem é de: ". $distancia."km.<hr/>";
 	
-
-
  ?>

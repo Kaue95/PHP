@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font: 32px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    background: #858697;
+    border-radius: 25px;
+    text-shadow: 15px 15x 15px color #BEC1E6;
+    box-shadow: 5px 5px 5px #BEC1E6;
+
+}
+.grid{
+    display: grid;
+    margin: 5px;
+    background: #9D9FBD;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px #BEC1E6;
+    
+}
+
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: inherit;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background:    #858697;
+    border-radius: 25px;
+    text-shadow: 15px 15x 15px color #BEC1E6;
+    box-shadow: 5px 5px 5px #BEC1E6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #9a9dc2;
+    margin: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 100%;
+   background-color: #636577;
+    text-shadow: 15px 15px 15px color #9D9FBD;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.op{
+    
+    margin-left: 220px;
+    width: min-content;
+    height: min-content;
+   
+}
+
+
+#other{
+    width: 300px;
+    
+}
+#sec{
+    margin-left: 220px;
+
+}
+
+#feed{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: inherit;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+    
+#textogrande{
+    width: 400px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+#contato{
+    margin-left: 200px;
+}
+#cont1{
+    margin-left: 20px;
+    width: 400px;
+}
+#cont2{
+    margin-left: 15px;
+    width: 400px;
+}
+#cont3{
+    margin-left: 28px;
+    width: 400px;
+}
+#cont4{
+    margin-left: 41px;
+    width: 400px;
+}
+#check{
+    margin-left: 150px;
+}
+
+#botao1{
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 300px;
+    
+}
+#botao2{
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: -200px;
+    
+}
+
