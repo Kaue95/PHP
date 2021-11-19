@@ -1,0 +1,1 @@
+Eita bixo este é o segundo arquivo a ser lido, parabens meu amigo você abriu o segundo arquivo via php!
